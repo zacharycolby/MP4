@@ -15,6 +15,10 @@ public class AudioBook extends Book {
         return this.minutes;
     }
 
+    String bookTypeDescription() {
+        return "Good for readers who want to read in the background and multitask.";
+    }
+
     public String toString() {
         String str = "\nAUDIOBOOK";
         str += super.toString();

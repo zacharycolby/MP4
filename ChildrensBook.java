@@ -17,6 +17,10 @@ public class ChildrensBook extends Book {
         return this.recommendedAge;
     }
 
+    String bookTypeDescription() {
+        return "A children's book, good for early readers or parents to read to their kids.";
+    }
+
     public String toString() {
         String str = "\nCHILDREN'S BOOK";
         str += super.toString();

@@ -52,6 +52,8 @@ public abstract class Book {
         this.authorName = authorName;
     }
 
+    abstract String bookTypeDescription();
+
     // toString()
     public String toString() {
         return "\nTitle: " + this.title + "\nNumber of Pages: " + this.numPages + "\nYear: " + this.year + "\nAuthor: " + this.authorName;

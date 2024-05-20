@@ -17,6 +17,10 @@ public class FictionBook extends Book {
         return this.genre;
     }
 
+    String bookTypeDescription() {
+        return "Good for readers who want to read straight up lies!!";
+    }
+
     public String toString() {
         String str = "\nFICTION BOOK";
         str += super.toString();

@@ -17,6 +17,11 @@ public class Library {
         return bookCheckedOut;
     }
 
+    public Book returnBook(Book bookCheckedOut) {
+        this.addBook(bookCheckedOut);
+        return bookCheckedOut;
+    }
+
     public void addBook(Book book) {
         this.books.add(book);
     }
@@ -72,4 +77,5 @@ public class Library {
         }
         return str;
     }
+
 }
